@@ -14,6 +14,8 @@ int main()
     printf("The address of a is %x\n",ptra);
     //Printing address of pointer itself
     printf("The address of pointer to a is %x\n",&ptra);
+
+    //Null Pointers
     printf("\n Concept of NULL Pointer\n");
     int *nullptr=NULL;
     printf("The value of adrress stored by null pointer is %x\n",nullptr);
